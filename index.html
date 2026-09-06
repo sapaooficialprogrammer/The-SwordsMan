@@ -19,58 +19,21 @@
       <button id="chapterBtn" class="btn">SELEÇÃO DE CAPÍTULO</button>
       <button id="controlsBtn" class="btn">CONTROLES</button>
     </div>
-    <div class="version">V3 · Adventure build · visual late-90s</div>
+    <div class="version">V3.1 · Adventure build · visual late-90s</div>
   </div>
 </section>
-
 <section id="play" class="hidden">
-  <canvas id="game"></canvas>
-  <div class="grain"></div><div class="vig"></div>
+  <canvas id="game"></canvas><div class="grain"></div><div class="vig"></div>
   <div id="hud">
-    <div class="status">
-      <div class="nameplate">KAEL · ESPADACHIM DE NARETH</div>
-      <div class="mini"><span>Vitalidade</span><span id="hpText">140/140</span></div>
-      <div class="bar"><div id="hpFill" class="fill hp"></div></div>
-      <div class="mini"><span>Fôlego</span><span>Guarda / Esquiva</span></div>
-      <div class="bar"><div id="stFill" class="fill st"></div></div>
-    </div>
-    <div class="topRight">
-      <div class="chip"><b id="potions">3</b>Poções</div>
-      <div class="chip"><b id="marks">0</b>Marcos</div>
-      <div class="chip"><b id="sigil">—</b>Selo</div>
-    </div>
-    <div id="area" class="area"></div>
-    <div id="quest" class="quest"></div>
-    <div id="prompt" class="prompt hidden"></div>
+    <div class="status"><div class="nameplate">KAEL · ESPADACHIM DE NARETH</div><div class="mini"><span>Vitalidade</span><span id="hpText">140/140</span></div><div class="bar"><div id="hpFill" class="fill hp"></div></div><div class="mini"><span>Fôlego</span><span>Guarda / Esquiva</span></div><div class="bar"><div id="stFill" class="fill st"></div></div></div>
+    <div class="topRight"><div class="chip"><b id="potions">3</b>Poções</div><div class="chip"><b id="marks">0</b>Marcos</div><div class="chip"><b id="sigil">—</b>Selo</div></div>
+    <div id="area" class="area"></div><div id="quest" class="quest"></div><div id="prompt" class="prompt hidden"></div>
     <div id="bossHud" class="bossHud hidden"><div class="bossName">VHAROS · REGENTE CINZENTO</div><div class="bar"><div id="bossFill" class="fill bossFill"></div></div></div>
     <div id="dialog" class="dialog hidden"><div class="portrait"></div><div id="speaker" class="speaker"></div><div id="dialogLine" class="line"></div><div class="hint">E / Enter para continuar</div></div>
   </div>
-  <div id="pause" class="hidden">
-    <div class="panel">
-      <h2>Pausa</h2><div id="pauseArea" class="sub"></div>
-      <div class="inventory">
-        <div class="slot"><b>Espada de Nareth</b>Lâmina de guarda antiga. Ataques leves encadeiam três golpes.</div>
-        <div class="slot"><b>Guarda</b>L ou Q. Uma defesa iniciada no instante certo pode atordoar o inimigo.</div>
-        <div class="slot"><b>Esquiva</b>Shift. Consome fôlego e concede breves quadros de invulnerabilidade.</div>
-        <div class="slot"><b>Exploração</b>Use E perto de pessoas, entradas, altares, marcos e objetos suspeitos.</div>
-      </div>
-      <button id="resume" class="btn">CONTINUAR</button><button id="toMenu" class="btn">MENU PRINCIPAL</button>
-    </div>
-  </div>
+  <div id="pause" class="hidden"><div class="panel"><h2>Pausa</h2><div id="pauseArea" class="sub"></div><div class="inventory"><div class="slot"><b>Espada de Nareth</b>Lâmina de guarda antiga. Ataques leves encadeiam três golpes.</div><div class="slot"><b>Guarda</b>L ou Q. Uma defesa iniciada no instante certo pode atordoar o inimigo.</div><div class="slot"><b>Esquiva</b>Shift. Consome fôlego e concede breves quadros de invulnerabilidade.</div><div class="slot"><b>Exploração</b>Use E perto de pessoas, entradas, altares, marcos e objetos suspeitos.</div></div><button id="resume" class="btn">CONTINUAR</button><button id="toMenu" class="btn">MENU PRINCIPAL</button></div></div>
 </section>
-
-<div id="overlay" class="hidden">
-  <div class="panel"><h2 id="overlayTitle">Controles</h2><div id="overlayBody" class="controls">
-    <div class="keyrow"><span>Andar</span><span class="key">A / D</span></div>
-    <div class="keyrow"><span>Pular</span><span class="key">ESPAÇO</span></div>
-    <div class="keyrow"><span>Ataque leve / combo</span><span class="key">J</span></div>
-    <div class="keyrow"><span>Ataque pesado</span><span class="key">K</span></div>
-    <div class="keyrow"><span>Defender / aparar</span><span class="key">L / Q</span></div>
-    <div class="keyrow"><span>Esquivar</span><span class="key">SHIFT</span></div>
-    <div class="keyrow"><span>Interagir</span><span class="key">E</span></div>
-    <div class="keyrow"><span>Poção</span><span class="key">H</span></div>
-  </div><button id="overlayClose" class="btn">VOLTAR</button></div>
-</div>
-<script src="v3.js"></script>
+<div id="overlay" class="hidden"><div class="panel"><h2 id="overlayTitle">Controles</h2><div id="overlayBody" class="controls"><div class="keyrow"><span>Andar</span><span class="key">A / D</span></div><div class="keyrow"><span>Pular</span><span class="key">ESPAÇO</span></div><div class="keyrow"><span>Ataque leve / combo</span><span class="key">J</span></div><div class="keyrow"><span>Ataque pesado</span><span class="key">K</span></div><div class="keyrow"><span>Defender / aparar</span><span class="key">L / Q</span></div><div class="keyrow"><span>Esquivar</span><span class="key">SHIFT</span></div><div class="keyrow"><span>Interagir</span><span class="key">E</span></div><div class="keyrow"><span>Poção</span><span class="key">H</span></div></div><button id="overlayClose" class="btn">VOLTAR</button></div></div>
+<script src="v31.js"></script>
 </body>
 </html>
